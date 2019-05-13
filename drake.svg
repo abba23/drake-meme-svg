@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1600 2000" width="1600" height="2000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        .text {
+            font-family: impact;
+            font-size: 100px;
+            stroke: black;
+            stroke-width: 4;
+            fill: white;
+        }
+    </style>
+
+    <!-- background -->
+    <rect x="0" y="0" width="1600" height="2000" fill="white"/>
+
+    <!-- images (video frames) -->
+    <image xlink:href="frame1.png" x="0" y="0" height="1000" width="800"/>
+    <image xlink:href="frame2.png" x="0" y="1000" height="1000" width="800"/>
+
+    <!-- partitioning lines -->
+    <line x1="800" y1="0" x2="800" y2="2000" stroke="black" stroke-width="7"/>
+    <line x1="0" y1="1000" x2="1600" y2="1000" stroke="black" stroke-width="7"/>
+
+    <!-- text -->
+    <text x="850" y="480" class="text">CREATING MEMES</text>
+    <text x="900" y="600" class="text">IN PHOTOSHOP</text>
+    <text x="850" y="1500" class="text">WRITING THEM AS</text>
+    <text x="840" y="1620" class="text">VECTOR GRAPHICS</text>
+</svg>
